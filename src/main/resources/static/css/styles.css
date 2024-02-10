@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.toolbar {
+    float: right;
+}
+
+.toolbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.toolbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.add-task input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.add-task button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.line {
+    width: 2px;
+    height: 20px;
+    background-color: green;
+    margin-left: 10px; /* Adjust as needed */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left-toolbar {
+    background-color: blue;
+    padding: 10px;
+}
+
+.left-toolbar input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.left-toolbar input:last-child {
+    margin-bottom: 0;
+}
+
+main {
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-height: calc(100vh - 100px); /* Adjust based on your header size */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+}
+
+.container-tasklist {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-tasklist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container-tasklist li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
